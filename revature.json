@@ -1,0 +1,20 @@
+{
+  "type": "java",
+  "testFiles": [
+    {
+      "path": "src/test/java/SetAllArrayElementsTest.java",
+      "testCases": [
+        {
+          "methodName": "setTest1",
+          "label": "Sets all array elements to given value",
+          "description": "Verifies that calling set(arr,0) on [1,2,3,4] updates all elements to 0."
+        },
+        {
+          "methodName": "setTest2",
+          "label": "Replaces uniform array values",
+          "description": "Checks that calling set(arr,1) changes all elements of [2,2,2,2,2] to 1."
+        }
+      ]
+    }
+  ]
+}
